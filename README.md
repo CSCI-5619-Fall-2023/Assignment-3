@@ -48,7 +48,7 @@ Graded out of 20 points. Partial credit is possible for each step.
 
 - Draw a spindle that connects the two controllers. This is typically implemented using a box or cylinder that is scaled to appear like a long thin line. The X and Y scale should therefore be quite small, and the Z scale would be set using the distance between the two controllers. You might find the `look_at()` method useful for setting the orientation of the spindle. (2)
 
-**Part 2: Object Selection **
+**Part 2: Object Selection**
 
 - The starter code is a more robust implementation of the grabbing and dropping code that we started in [Lecture 14](https://github.com/CSCI-5619-Fall-2023/Lecture-14).  Currently, the grabber script is attached directly to each controller.  You should remove this script from the controllers, and instead attach it to spindle midpoint marker.  Then, you will need to set up the Area3D and CollisionShape3D so that you can grab virtual objects using the marker. (2)
 
